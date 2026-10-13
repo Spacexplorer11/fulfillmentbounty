@@ -1,0 +1,20 @@
+{
+  "name": "fulfillmentbounty",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development node --env-file-if-exists=.env --watch --import remix/node-tsx server.ts",
+    "hmr": "NODE_ENV=development node --env-file-if-exists=.env hmr.ts",
+    "start": "NODE_ENV=production node --env-file-if-exists=.env --import remix/node-tsx server.ts",
+    "test": "NODE_ENV=test remix test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vercel/global-config": "^1.5.1",
+    "remix": "3.0.0-rc.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "typescript": "~6.0.3"
+  }
+}

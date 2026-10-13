@@ -1,0 +1,13 @@
+node_modules/
+db/*.sqlite
+tmp/
+.DS_Store
+.env
+.env.*
+.vercel
+.playwright-mcp
+.env*
+AGENTS.md
+.agents/
+CLAUDE.md
+.claude/
