@@ -120,7 +120,7 @@ function WeeklyCard(handle: Handle<{ stats: DashboardStats }>) {
     return (
       <article mix={[cardStyle, chartCardStyle]}>
         <h2>Cases per week</h2>
-        <p class="sub">Monday–Sunday. The lighter bar is this week so far.</p>
+        <p class="sub">Monday–Sunday. The darker bar is this week so far.</p>
         <div class="plot">
           <ColumnChart
             label="New cases per week"
